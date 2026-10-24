@@ -2,24 +2,24 @@
 class Agentchat < Formula
   desc "Run claude, codex or any CLI under AgentChat for remote control and Agent messaging"
   homepage "https://getagentchat.com"
-  version "0.5.1"
+  version "0.5.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://getagentchat.com/downloads/agentchat/0.5.1/agentchat-0.5.1-aarch64-apple-darwin.tar.gz"
-      sha256 "752c8727629ee204fc18b5f725f153a6975da7338ea2396cd51eca062ea00aa6"
+      url "https://getagentchat.com/downloads/agentchat/0.5.2/agentchat-0.5.2-aarch64-apple-darwin.tar.gz"
+      sha256 "f64b3f1eb80e3edf03f7a529543774d7157d4f4c30e7cb5abd78e7d119f028b9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://getagentchat.com/downloads/agentchat/0.5.1/agentchat-0.5.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fe05c3f5c8ae99c15737d68d592a213670e0a1ff9b3d715290ca7d76a145b1bb"
+      url "https://getagentchat.com/downloads/agentchat/0.5.2/agentchat-0.5.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d873599926577a5a03320e3871b9d628430db937ece8d4af00a1508d84ef7df5"
     end
     on_intel do
-      url "https://getagentchat.com/downloads/agentchat/0.5.1/agentchat-0.5.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c9ec3358be3d5a06b795c8bbbd99ce7eca00a774a7ee7a59bf4cb2b2099638ec"
+      url "https://getagentchat.com/downloads/agentchat/0.5.2/agentchat-0.5.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e0fe6ebd4dbdd1f880ecd68c5588516ea85ce29100a466e81c14978e4641df62"
     end
   end
 
